@@ -1,0 +1,188 @@
+
+html, body {
+  height: 720px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+  * {box-sizing:border-box}
+
+/* Background Image */
+  .bg-image {
+    /* The image used */
+    background-image: url("bg-page.jpg");
+
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+/* Background Text */
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    z-index: 2;
+    width: 90%;
+    text-align: center;
+  }
+
+
+
+
+
+.header {
+  background-image: url(header.jpg);
+  background-repeat: no-repeat;
+  text-align: left;
+  font-size: 50px;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height:auto;
+
+}
+
+
+
+.content {
+  max-width: 4000px
+  max-height:auto;  
+  margin: auto;
+  background-image: url(bg-page.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+  background-size: cover
+  height: 100%; 
+  /*  filter:blur(8px);
+  */
+}
+
+.body {
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+
+
+/* Navigation Bar */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+      
+
+body {
+
+  /* When four values are specified, the margins apply to the TOP, RIGHT, BOTTOM, and LEFT in that order (clockwise). */
+
+    background: white;
+    vertical-align: baseline;
+  }
+
+
+
+
+.paragraph1 {
+
+  background-color: white;
+
+  /* font settings */
+  font-size: 20px;
+  letter-spacing: 1.0px;
+  font-family: poppins, times new roman, sans serif, filson-soft, calibri light, verdana;
+
+  /* border */
+  border-style: hidden;
+
+  /* paragraph */
+  padding: 5px;
+  color: #545454;
+  width: auto;
+  height: ;
+  margin: 0 auto;
+  padding: 100px;
+  position: relative;
+  }
+
+
+.img1 {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 10%;
+}
+
+.list {
+  text-align: left;
+}
+
+
+/* When four values are specified, the margins apply to the TOP, RIGHT, BOTTOM, and LEFT in that order (clockwise). */
+
+.background-page {
+  max-width: 75%;
+  margin: auto;
+  padding: 100px;
+  background-image: url(bg-body.jpg);
+  background-repeat: no-repeat;
+  background-position: center center fixed;;
+  background-size: cover;
+  background-color: rgba(0,0,0, 0.4);
+  position: absolute;
+}
+
+footer {
+  text-align: center; 
+  padding: 10px;
+  background-color: DarkSalmon;
+  color: white;
+
+}
