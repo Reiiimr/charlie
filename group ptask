@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Project Charlie</title>
+<link rel="stylesheet" href="styles.css">
+
+<img src="mainlogo.png" height="16%">
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+
+</head>
+<body>
+  <div class="bg-image"></div>
+
+  <div class="bg-text bg-body">
+    <div class="header" >
+      <img src="Logo.png" style="max-height: 100px; float:left">
+      <header>Top 5 Filipino <br> Cuisines</header>
+    </div>
+
+
+    
+    <div class="paragraph1">
+      <p style="text-align: left">
+        Dishes range from the very simple, like a meal of fried salted fish and rice, to curries, to complex paellas and cozidos of Iberian origin made for fiestas. Most Filipino dishes are heavy on meat, like beef (baka), chicken (manok), and pork (baboy), and occasionally goat (kambing). Filipino food is making waves across the globe due to its delicious blend of rich flavors and unique textures that create a special dining experience for any individual.
+      </p><br>
+
+      <p><font size="7" color="#6a320c">Chicken Adobo</font></p>
+
+      <img src="adobo.jpg" width="960px" height="540px">
+
+
+
+      <p style="text-align: left">
+        Flavorful Chicken Adobo made with incredibly tender chicken thighs and a tangy vinegar and rich soy based sauce. The chicken is browned then cooks right in the sauce for plenty of time to absorb all those delicious flavors. It’s the perfect easy chicken dinner recipe!<br><br>
+
+        
+
+        <font size="5"><b>Chicken Adobo Ingredients:</b></font><br>
+
+        <div class="list">
+                <li>
+                    <b>
+                    Cane Vinegar
+                    </b>
+                </li>
+                  <br>
+
+                <br>
+                <li>
+                  <b>
+                  Soy Sauce
+                  </b>
+                </li>
+                  <br>
+
+                <br>
+                <li>
+                    <b>
+                      Brown Sugar
+                    </b>
+                </li>
+                <br>
+
+                <br>
+                <li>
+                  <b>
+                    Black peppercorns
+                  </b>
+                </li>
+                <br>
+
+                <br>
+                <li>
+                  <b>
+                    Vegetable Oil
+                  </b>
+                </li>
+                <br>
+
+                <br>
+                <li>
+                  <b>
+                  Chicken Thighs
+                 </b>
+              </li>
+                <br>
+
+              <br>
+              <li>
+                <b>
+                  Garlic Cloves
+                </b>
+              </li>
+              <br>
+
+              <br>
+              <li>
+                <b>
+                  Bay Leaves
+                </b>
+              </li><br>
+          </div>
+
+
+      </p>
+    </div>
+
+    <div>
+      <footer><center>Our Contributors
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Job Title</th> 
+              <th>Email address</th>
+            </tr>
+            <tr>
+              <td>Anna Fitzgerald</td>
+              <td>Staff Writer</td>
+              <td>example@company.com</td>
+            </tr>
+            <tr>
+              <td>John Smith</td>
+              <td>Marketing Manager</td>
+              <td>example2@company.com</td>
+            </tr>
+            <tr>
+              <td>Zendaya Grace</td>
+              <td>CEO</td>
+              <td>example2@company.com</td>
+            </tr>
+          </table>
+        </center>
+        <pre> <font color="black"> 
+          <center> Special thanks to <b>Project Charlie</b> of TVL ICT 11 S.Y. 2022-2023.
+          </center>
+      </footer>
+    </div>
+</div>
+</body>
+</html>
